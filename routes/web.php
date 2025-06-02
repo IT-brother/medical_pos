@@ -3,8 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-     return view("welcome");
-   //  return redirect('/admin/login');
+    // return view("welcome");
+     return redirect('/admin/login');
 });
 
 Route::get('/service-invoice/create', [App\Http\Controllers\InvoiceController::class, 'create'])->name('service.invoice.create');
