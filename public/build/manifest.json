@@ -1,0 +1,44 @@
+{
+  "_react-select.esm-BJQ3taTF.js": {
+    "file": "assets/react-select.esm-BJQ3taTF.js",
+    "name": "react-select.esm",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-BKkDowTI.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/Pages/Invoice/Invoice.jsx": {
+    "file": "assets/Invoice-BA6DvBFu.js",
+    "name": "Invoice",
+    "src": "resources/js/Pages/Invoice/Invoice.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_react-select.esm-BJQ3taTF.js"
+    ]
+  },
+  "resources/js/Pages/Invoice/MedicalInvoice.jsx": {
+    "file": "assets/MedicalInvoice-CTysMsJy.js",
+    "name": "MedicalInvoice",
+    "src": "resources/js/Pages/Invoice/MedicalInvoice.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.jsx",
+      "_react-select.esm-BJQ3taTF.js"
+    ]
+  },
+  "resources/js/app.jsx": {
+    "file": "assets/app-KWrrAxLi.js",
+    "name": "app",
+    "src": "resources/js/app.jsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/Pages/Invoice/Invoice.jsx",
+      "resources/js/Pages/Invoice/MedicalInvoice.jsx"
+    ]
+  }
+}
