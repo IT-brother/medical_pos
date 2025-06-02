@@ -14,8 +14,8 @@ class MedicineSaleDailyReport extends Page
     public function getDailySales()
     {
         $sub = DB::table('medical_orders')
-            ->selectRaw('id, DATE(date) as date, discount + foc as total_discount_foc')
-            ->groupBy('id', DB::raw('DATE(date)'));
+            ->selectRaw('id, DATE(date) as date, discount + foc as total_discount_foc');
+           // ->groupBy('id', DB::raw('DATE(date)'));
         return  DB::table('medical_order_items')
             ->joinSub($sub, 'orders', function ($join) {
                 $join->on('medical_order_items.medical_order_id', '=', 'orders.id');
