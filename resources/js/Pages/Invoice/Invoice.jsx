@@ -68,9 +68,11 @@ function Invoice({services}) {
         }
     });
   }
+console.log(services);
 const handleChange = (selectedOption,index) => {
     const newItems = [...items];
     newItems[index]["name"]= selectedOption.value;
+    newItems[index]["price"] = selectedOption.price;
     setItems(newItems);
   };
   const customStyles = {
@@ -89,6 +91,7 @@ const handleChange = (selectedOption,index) => {
     padding: '0 8px', // 👈 padding inside the input container
   }),
 };
+console.log(items);
   return (
     <div className='w-3/4 mx-auto bg-gray-200 p-4 mt-3 text-whit max-h-full'>
       <div className='grid grid-cols-3 gap-4'>

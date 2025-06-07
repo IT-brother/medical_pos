@@ -32,8 +32,8 @@ class ServiceOrderResource extends Resource
                     ->required()
                     ->numeric()
                     ->default(0),
-                Forms\Components\DatePicker::make('date')
-                    ->required(),
+                // Forms\Components\DatePicker::make('date')
+                //     ->required(),
                 Forms\Components\TextInput::make('patient')
                     ->required()
                     ->maxLength(255),

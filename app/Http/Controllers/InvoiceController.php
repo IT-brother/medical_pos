@@ -29,7 +29,7 @@ class InvoiceController extends Controller
          {
             foreach($services as $service)
             {
-                $options[] = ["value" => $service->id,"label" => $service->name];
+                $options[] = ["value" => $service->id,"label" => $service->name,"price" => $service->price];
             }
          }else
          {

@@ -51,6 +51,6 @@ https://wpmethods.com/deploy-upload-laravel-vue-inertiajs-tailwind-project-in-cp
  - public_html/index.php မှာ /storage/ path တွေကို ပြင်ပေးရမယ်
  - အပေါ် က wpmethods.com ကိုကြည့်ပီ ဆောင်ရွက်ပါ... 
 
-# update လုပ်မယ် ဆို build file တွေကို manually upload လုပ်ပါမယ် / public_html/build ထဲ ထည့်ရမယ် // public/build/manifest.json ထဲမှာ ထည့်ရမယ် 
+# update လုပ်မယ် ဆို build file တွေကို manually upload လုပ်ပါမယ် / public_html/build ထဲ ထည့်ရမယ် // public/build/manifest.json  ထည့်ရမယ် 
 # backend ကိုတော့ git pull နဲ့ update လုပ်ပါမယ်
 

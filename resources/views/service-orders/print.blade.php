@@ -11,20 +11,12 @@
             font-family: Arial, sans-serif;
             font-size: 14px;
             margin: 0;
-            padding: 20px;
+            padding: 0;
         }
-
-
         .header {
             text-align: center;
             font-weight: bold;
         }
-
-        .header img {
-            width: 40px;
-            margin-bottom: 5px;
-        }
-
         .section {
             margin-top: 10px;
         }
@@ -50,7 +42,7 @@
     </style>
 </head>
 <body>
-    <div class="receipt">
+    <div style="width:100%;">
         <table>
             <tr>
                 <td style="text-align: right;max-width:30%">
