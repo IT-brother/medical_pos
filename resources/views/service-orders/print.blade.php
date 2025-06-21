@@ -42,7 +42,7 @@
     </style>
 </head>
 <body>
-    <div style="width:100%;">
+    <div style="width:100%;font-size:0.8em">
         <table>
             <tr>
                 <td style="text-align: right;max-width:30%">

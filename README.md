@@ -54,3 +54,5 @@ https://wpmethods.com/deploy-upload-laravel-vue-inertiajs-tailwind-project-in-cp
 # update လုပ်မယ် ဆို build file တွေကို manually upload လုပ်ပါမယ် / public_html/build ထဲ ထည့်ရမယ် // public/build/manifest.json  ထည့်ရမယ် 
 # backend ကိုတော့ git pull နဲ့ update လုပ်ပါမယ်
 
+- yanpaingphyo => 123Ypp45#%
+
