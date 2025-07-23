@@ -24,6 +24,8 @@ class MedicalOrderResource extends Resource
     {
         return $form
             ->schema([
+                Forms\Components\TextInput::make('voucher_no')
+                    ->required(),
                 Forms\Components\TextInput::make('discount')
                     ->required()
                     ->numeric()
