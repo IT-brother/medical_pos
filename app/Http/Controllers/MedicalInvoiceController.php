@@ -69,7 +69,7 @@ class MedicalInvoiceController extends Controller
                                 "payment"  => $request->payment,
                                 "discount" => $request->discount,
                                 "foc" => $request->foc,
-                                "date" => date("Y-m-d"),
+                                "date" => $date,
                                 "patient" => $request->patient,
                                 "address" => $request->address,
                                 "user_id" => Auth::user()->id
