@@ -64,7 +64,7 @@
             <table>
                 <tr>
                     <td style="padding:8px">Voucher No: {{$order->voucher_no }}</td>
-                    <td style="padding:8px">Date: {{ date('d-m-Y H:i',strtotime($order->created_at)) }}</td>
+                    <td style="padding:8px">Date: {{ date('d-m-Y',strtotime($order->updated_at)) }}</td>
                 </tr>
                 <tr>
                     <td style="padding:8px">Customer: {{ $order->patient }}</td>
