@@ -58,9 +58,10 @@ class MedicalInvoiceController extends Controller
         if(count($request->items) > 0)
         {
             DB::beginTransaction();
+            date_default_timezone_set("Asia/Yangon");
             try {
                    $datePrefix = now()->format('Ymd');
-                   $countToday = MedicalOrder::whereDate('created_at', today())->count() + 1;
+                   $countToday = MedicalOrder::whereDate('date', today())->count() + 1;
                    $voucher_no = $datePrefix . '-' . str_pad($countToday, 4, '0', STR_PAD_LEFT);
                    $orderId =  MedicalOrder::create([
                                 "voucher_no" => $voucher_no,

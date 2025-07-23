@@ -57,9 +57,10 @@ class InvoiceController extends Controller
         if(count($request->items) > 0)
         {
             DB::beginTransaction();
+            date_default_timezone_set("Asia/Yangon");
             try {
                    $datePrefix = now()->format('Ymd');
-                   $countToday = ServiceOrder::whereDate('created_at', today())->count() + 1;
+                   $countToday = ServiceOrder::whereDate('date', today())->count() + 1;
                    $voucher_no = $datePrefix . '-' . str_pad($countToday, 4, '0', STR_PAD_LEFT);
                    $orderId =  ServiceOrder::create([
                                 "voucher_no" => $voucher_no,

@@ -45,10 +45,10 @@ createInertiaApp({
 https://wpmethods.com/deploy-upload-laravel-vue-inertiajs-tailwind-project-in-cpanel/
 
 # npm run build
- - build folder ထဲမှ compiled ဖိုင်များကို /publci_html/build ထဲမှာ ထည့်မယ် . 
+ - build folder ထဲမှ compiled ဖိုင်များကို /publci_html/build ထဲမှာ ထည့်မယ် .  (React js ပါလို့ပါ)
  - public/build ထဲမှာ manifest.json ကို ထည့်ပေးရမယ် 
- - laravel/public folder ထဲမှ ဖိုင်တွေကို public_html ထည့်မယ်
- - public_html/index.php မှာ /storage/ path တွေကို ပြင်ပေးရမယ်
+ - laravel/public folder ထဲမှ ဖိုင်တွေကို public_html ထည့်မယ် (directory တခုနောက်ဆုတ်တဲ့သဘောပါ)
+ - public_html/index.php မှာ /storage/ path တွေကို ပြင်ပေးရမယ် (ယခင် ../ တွေဖြစ်နေလိမ့်မယ်)
  - အပေါ် က wpmethods.com ကိုကြည့်ပီ ဆောင်ရွက်ပါ... 
 
 # update လုပ်မယ် ဆို build file တွေကို manually upload လုပ်ပါမယ် / public_html/build ထဲ ထည့်ရမယ် // public/build/manifest.json  ထည့်ရမယ် 

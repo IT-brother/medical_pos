@@ -46,16 +46,16 @@
         <table>
             <tr>
                 <td style="text-align: right;max-width:30%">
-                    <img src="{{ asset('images/logo.png') }}" alt="Logo" widht="70" height="70" >
+                    <img src="{{ asset('images/logo.png') }}" alt="Logo" widht="60" height="60" >
                 </td>
                 <td class="header">
-                    <div>ရွှေယမုံအထူးကုဆေးခန်း</div>
-                    <div>အမှတ်(၇)ရပ်ကွက်၊ အင်ပု(၄)လမ်းထိပ်</div>
+                    <div style="font-size:0.9em">ရွှေယမုံအထူးကုဆေးခန်း</div>
+                    <div style="font-size:0.8em">အမှတ်(၇)ရပ်ကွက်၊အင်ပု(၄)လမ်းထိပ်</div>
                     <div>လယ်ဝေးမြို့၊ နေပြည်တော်</div>
                     <div>Ph: 09 768335156</div>
                 </td>
                  <td style="text-align: left;max-width:30%">
-                    <img src="{{ asset('images/pharmacy.png') }}" alt="Logo" widht="50" height="50" >
+                    <img src="{{ asset('images/pharmacy.png') }}" alt="Logo" widht="40" height="40" >
                 </td>
             </tr>
         </table>
