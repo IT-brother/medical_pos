@@ -61,7 +61,7 @@ class MedicalInvoiceController extends Controller
             date_default_timezone_set("Asia/Yangon");
             try {
                    $datePrefix = now()->format('Ymd');
-                   $date = date("Y-m-d");
+                 return  $date = date("Y-m-d");
                    $countToday = MedicalOrder::whereDate('date', $date)->count() + 1;
                    $voucher_no = $datePrefix . '-' . str_pad($countToday, 4, '0', STR_PAD_LEFT);
                    $orderId =  MedicalOrder::create([
