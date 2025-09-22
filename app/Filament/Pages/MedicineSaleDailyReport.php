@@ -3,6 +3,8 @@ namespace App\Filament\Pages;
 
 use Filament\Pages\Page;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Pagination\LengthAwarePaginator;
+
 class MedicineSaleDailyReport extends Page
 {
     protected static ?string $navigationIcon = 'heroicon-o-chart-bar';
@@ -26,6 +28,6 @@ class MedicineSaleDailyReport extends Page
             ->selectRaw('SUM(DISTINCT orders.total_discount_foc) as total_discount_foc')
             ->groupBy('orders.date')
             ->orderByDesc('orders.date')
-            ->paginate(20);
+            ->paginate(100);
     }
 }

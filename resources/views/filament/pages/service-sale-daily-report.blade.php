@@ -31,4 +31,7 @@
             @endif
         </tbody>
     </table>
+    <div class="mt-4">
+        {{ $this->getDailySales()->links() }}
+    </div>
 </x-filament-panels::page>
