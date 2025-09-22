@@ -28,6 +28,6 @@ class MedicineSaleDailyReport extends Page
             ->selectRaw('SUM(DISTINCT orders.total_discount_foc) as total_discount_foc')
             ->groupBy('orders.date')
             ->orderByDesc('orders.date')
-            ->paginate(100);
+            ->paginate(30);
     }
 }
